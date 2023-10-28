@@ -17,4 +17,9 @@ When in doubt, pick one of package formats with built-in automatic update mechan
 - **Mac:** [greendrive_en.dmg](https://github.com/greendrive/greendrive/releases/download/v0.9.1/greendrive_en.dmg)
 - **Windows:** [greendrive_en_Win.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.1/greendrive_en_Win.zip)
 - **Linux:**  [greendrive_Linux_en.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.1/greendrive_Linux_en.zip)
-  - If you prefer to manage updates on your own, see other package formats below.
+
+### Roadmap
+
+We are building GreenDrive to combine GreenField storage technology with Glows.ai indexing engine.
+
+![diagram](https://github.com/greendrive/greendrive/assets/109056914/d5ae654d-aba8-4198-b2fd-3ba0da04e705)
