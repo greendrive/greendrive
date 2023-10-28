@@ -22,4 +22,4 @@ When in doubt, pick one of package formats with built-in automatic update mechan
 
 We are building GreenDrive to combine GreenField storage technology with Glows.ai indexing engine.
 
-![diagram](https://github.com/greendrive/greendrive/assets/109056914/d5ae654d-aba8-4198-b2fd-3ba0da04e705)
+![diagram](https://github.com/greendrive/greendrive/assets/109056914/d32bc939-5538-435e-9ba5-62ba522aeea5)
