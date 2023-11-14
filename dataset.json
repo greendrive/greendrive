@@ -1,17 +1,16 @@
 {
   "version": "0.9",
-  "datasets": 
-  [
+  "datasets": [
     {
       "name": "Cityscape",
-      "versions": 
-      [
+      "versions": [
         {
-          "version: "1.0",
-          "size: "0",
+          "version": "1.0",
+          "size": "0",
           "url": "",
           "meta_url": ""
         }
       ]
+    }
   ]
 }
