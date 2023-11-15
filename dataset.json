@@ -6,9 +6,9 @@
       "versions": [
         {
           "version": "1.0",
-          "size": "0",
-          "url": "",
-          "meta_url": ""
+          "size": "11594888276",
+          "url": "greendrive/disk/snap_dataset.tar",
+          "meta_url": "https://github.com/greendrive/greendrive/raw/main/cityscape.meta"
         }
       ]
     }
