@@ -8,15 +8,33 @@
 
 | Files screen | Huggingface screen | Transfer screen | Uploading screen | Management screen|
 |-------|---------|-------|----------|------|
-| ![](https://github.com/greendrive/greendrive/assets/109056914/0adc36dc-8e46-4d5d-a266-d505baf5b8d0) | ![](https://github.com/greendrive/greendrive/assets/109056914/ffc2296e-fed0-4ae7-889a-007e6ee96b18) | ![](https://github.com/greendrive/greendrive/assets/109056914/6456bbe4-2fd1-4de9-9748-b5f3d089ee2a) | ![](https://github.com/greendrive/greendrive/assets/109056914/8a332081-07cb-4dae-9d03-952ef3533d9a) | ![](https://github.com/greendrive/greendrive/assets/109056914/2c7471b9-15b7-4dca-b9ca-3501fd466cdb) |
+| <img src="https://github.com/greendrive/greendrive/assets/109056914/0adc36dc-8e46-4d5d-a266-d505baf5b8d0" width="600" height="auto"/> | <img src="https://github.com/greendrive/greendrive/assets/109056914/ffc2296e-fed0-4ae7-889a-007e6ee96b18" width="600" height="auto"/> | <img src="https://github.com/greendrive/greendrive/assets/109056914/6456bbe4-2fd1-4de9-9748-b5f3d089ee2a" width="600" height="auto"/> | <img src="https://github.com/greendrive/greendrive/assets/109056914/8a332081-07cb-4dae-9d03-952ef3533d9a" width="600" height="auto"/> | <img src="https://github.com/greendrive/greendrive/assets/109056914/2c7471b9-15b7-4dca-b9ca-3501fd466cdb" width="600" height="auto"/> |
 
 ### Quick-install shortcuts
 
 When in doubt, pick one of package formats with built-in automatic update mechanism:
 
+- **Windows:** [greendrive_en_Win.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.2/greendrive_en_Win.zip)
 - **Mac:** [greendrive_en.dmg](https://github.com/greendrive/greendrive/releases/download/v0.9.1/greendrive_en.dmg)
-- **Windows:** [greendrive_en_Win.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.1/greendrive_en_Win.zip)
 - **Linux:**  [greendrive_Linux_en.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.1/greendrive_Linux_en.zip)
+
+#### Example
+
+<img src="https://github.com/greendrive/greendrive/assets/109056914/ad964935-2779-43e0-aa63-db826a3c87f0" width="600" height="auto"/>
+
+Locate the winfsp-2.0.23075.msi file for installation at 
+```
+C:\Users\user\Downloads\greendrive\datasetfs\winfsp-2.0.23075.msi
+```
+<img src="https://github.com/greendrive/greendrive/assets/109056914/edcfcff0-9247-4b10-a0b3-6638446b2501" width="600" height="auto"/>
+
+<img src="https://github.com/greendrive/greendrive/assets/109056914/52017d07-a53b-427e-9b81-ddeba5c4d386" width="300" height="auto"/>
+
+If necessary, please set up the Greendrive proxy.
+
+<img src="https://github.com/greendrive/greendrive/assets/109056914/9d73cfe2-ab08-484f-9ff0-d209743989f0" width="600" height="auto"/>
+
+Click 'Mount' and the dataset folder for the remote connection will appear on the desktop.
 
 ### Roadmap
 
