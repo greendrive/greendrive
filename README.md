@@ -46,8 +46,6 @@ sudo apt install libsnappy-dev libfuse-dev -y
 echo "user_allow_other" | sudo tee -a /etc/fuse.conf
 ```
 
-<img src="https://github.com/greendrive/greendrive/assets/109056914/f4fdf792-91ff-485e-b251-1e56fcb53cef" width="600" height="auto"/>
-
 runs `./run.sh` directly in terminal
 
 <img src="https://github.com/greendrive/greendrive/assets/109056914/b343dc50-9dee-4687-be84-66aea3049774" width="300" height="auto"/>
