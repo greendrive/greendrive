@@ -19,6 +19,8 @@ When in doubt, pick one of package formats with built-in automatic update mechan
 
 #### Example
 
+1. Installing the greendrive app on Windows
+
 <img src="https://github.com/greendrive/greendrive/assets/109056914/ad964935-2779-43e0-aa63-db826a3c87f0" width="600" height="auto"/>
 
 Locate the winfsp-2.0.23075.msi file for installation at 
@@ -34,6 +36,21 @@ If necessary, please set up the Greendrive proxy.
 <img src="https://github.com/greendrive/greendrive/assets/109056914/9d73cfe2-ab08-484f-9ff0-d209743989f0" width="600" height="auto"/>
 
 Click 'Mount' and the dataset folder for the remote connection will appear on the desktop.
+
+2. Installing the greendrive app on Ubuntu
+
+We update the system packages.
+```
+sudo apt update
+sudo apt install libsnappy-dev libfuse-dev -y
+echo "user_allow_other" | sudo tee -a /etc/fuse.conf
+```
+
+<img src="https://github.com/greendrive/greendrive/assets/109056914/f4fdf792-91ff-485e-b251-1e56fcb53cef" width="600" height="auto"/>
+
+runs `./run.sh` directly in terminal
+
+<img src="https://github.com/greendrive/greendrive/assets/109056914/b343dc50-9dee-4687-be84-66aea3049774" width="300" height="auto"/>
 
 ### Roadmap
 
