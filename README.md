@@ -48,8 +48,6 @@ echo "user_allow_other" | sudo tee -a /etc/fuse.conf
 
 runs `./run.sh` directly in terminal
 
-<img src="https://github.com/greendrive/greendrive/assets/109056914/b343dc50-9dee-4687-be84-66aea3049774" width="300" height="auto"/>
-
 ### Roadmap
 
 We are building GreenDrive to combine GreenField storage technology with Glows.ai indexing engine.
