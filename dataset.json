@@ -11,6 +11,17 @@
           "meta_url": "https://github.com/greendrive/greendrive/raw/main/cityscape.meta"
         }
       ]
+    },
+    {
+      "name": "sciq_train",
+      "versions": [
+        {
+          "version": "1.0",
+          "size": "6645332",
+          "url": "greendrive/disk/sciq_train.dataset",
+          "meta_url": "https://github.com/greendrive/greendrive/raw/main/sciq_train.meta"
+        }
+      ]
     }
   ]
 }
