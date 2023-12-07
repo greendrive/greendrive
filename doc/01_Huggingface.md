@@ -6,9 +6,9 @@ We support resumes from breakpoint. If your download fails due to network fluctu
 ![image](https://github.com/greendrive/greendrive/assets/150257109/d353dc28-70dc-4812-a75b-0e949de62a12)
 
 ## Importing HuggingFace Models/Datasets
-If you need to download a model/dataset that requires authorization or you need to be logged in to HuggingFace to download it, please configure your HuggingFace account token as described in the following tutorial before downloading it.
+If you need to download a model/dataset that requires authorization or you need to be logged in to HuggingFace to download it, please [configure your HuggingFace account token](#configure-huggingface-account-token) as described in the following tutorial before downloading it.
 
-Click on the HuggingFace button on the client page, enter the model/dataset link you want to download, and click **Browse** to access the list of related files.
+Click on the HuggingFace button on the client page, enter the model/dataset link you want to download, and click **Browse** to access the list of related files. (NOTE: we use `https://huggingface.co/datasets/detection-datasets/coco` as example link)
 
 ![image](https://github.com/greendrive/greendrive/assets/150257109/3fb711e9-8e8f-43b7-9813-29bb52f51a5c)
 
