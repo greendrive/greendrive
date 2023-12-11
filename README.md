@@ -14,8 +14,9 @@
 
 When in doubt, pick one of package formats with built-in automatic update mechanism:
 
-- **Windows:** [greendrive_windows.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.3/greendrive_windows.zip)
-- **Linux:**  [greendrive_linux.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.3/greendrive_linux.zip)
+- **Windows:** [greendrive_Windows.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.5/greendrive_Windows.zip)
+- **Linux:**  [greendrive_Linux.zip](https://github.com/greendrive/greendrive/releases/download/v0.9.5/greendrive_Linux.zip)
+- **MAC:**   [greendrive_Mac.dmg](https://github.com/greendrive/greendrive/releases/download/v0.9.5/greendrive_Mac.dmg)
 
 #### Example
 
