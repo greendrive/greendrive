@@ -74,3 +74,41 @@ If you need to continue to synchronize,
 
 When the status changes to **Replicating**, it indicates that the synchronization process has been restarted.
 
+## Restore database and query
+Once the data is loaded successfully, you can use GreenDrive to restore it on another device.
+Choose the folder
+Click **Restore**
+
+![image](https://github.com/greendrive/greendrive/assets/150257109/189bce87-a062-49ea-adba-c6a0d37083c0)
+
+Choose or create a folder
+Click **Open**
+
+After the above steps,  the Status changes to **Restoring**.
+
+![image](https://github.com/greendrive/greendrive/assets/150257109/239b776a-60a5-4c41-bb33-0182a159ab38)
+
+## Query the data
+Querying the data in this demo is also based on the [Chroma demo](https://github.com/chroma-core/chroma/blob/main/examples/basic_functionality/start_here.ipynb). Remember to change the part  "/path/to/save/to" into your actual path.
+
+```python
+from datasets import load_dataset
+import chromadb
+# Change /path/to/save/to according to your actual path
+client = chromadb.PersistentClient(path="/path/to/save/to")
+ 
+dataset = load_dataset("sciq", split="train")
+
+collection = client.get_collection("sciq_supports")
+results = collection.query(
+    query_texts=dataset["question"][:10],
+    n_results=1)
+
+# Print the question and the corresponding support
+for i, q in enumerate(dataset['question'][:10]):
+    print(f"Question: {q}")
+    print(f"Retrieved support: {results['documents'][i][0]}")
+    print()
+```
+
+You will get the query questions along with their retrieved supports after running the above code in your terminal.
