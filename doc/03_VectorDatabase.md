@@ -74,7 +74,7 @@ If you need to continue to synchronize,
 
 When the status changes to **Replicating**, it indicates that the synchronization process has been restarted.
 
-## Restore database and query
+## Restore database
 Once the data is loaded successfully, you can use GreenDrive to restore it on another device.
 Choose the folder
 Click **Restore**
